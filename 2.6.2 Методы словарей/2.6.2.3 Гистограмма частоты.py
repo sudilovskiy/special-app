@@ -11,3 +11,5 @@ for i in txt:
 for i, j in answer.items():
     print(f"Символ {i} встречается {j} раз")
 
+print(f"Максимальное количество раз {max(answer.values())}")
+
